@@ -34,6 +34,7 @@ body{
 .ticket-form{
     background: white;
     height: 160px;
+    padding:1%;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .ticket-table{
@@ -59,6 +60,28 @@ body{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     width: 380px;
 }
+#Ticket{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 .impact-select{
     width: 120px;
+}
+.rigth-sub-container{
+    margin-top: 48px;
+    margin-left: 2%;
+}
+.profile-image-div{
+    height: 175px;
+}
+.profile-image{
+    height: 100px;
+    width: 100px;
+    margin-left: 130px;
+    margin-top: 13%;
+}
+.profile-form{
+    margin-left: 5%;
+    padding: 1%;
 }
