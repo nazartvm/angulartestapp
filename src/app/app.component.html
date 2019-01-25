@@ -1,20 +1,86 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+<ul class="nav nav- header">
+  <li class="nav-item" style="height: 50px;
+  ">
+    <i class="fas fa-users"><span>Participants</span></i>
   </li>
 </ul>
-
+<div class="container-fluid">
+    <div class="row after-header">
+        <div class="col-md-3">Service Now</div>
+        
+      <div class="col-md-4 offset-md-5
+      ">
+      <button type="button" class="btn btn-raised btn-primary" (click)="testclick()">Scripts</button>
+      <button type="button" class="btn btn-raised btn-primary">Invite Agent</button>
+      <button type="button" class="btn btn-raised btn-danger">End</button>
+      
+            </div>  
+    </div>
+  <div class="row">
+  <div class="col-md-4">
+  <div class="profile-div">
+    Profile data
+    </div>  
+  </div>
+  <div class="col-md-8">
+    <div class="ticket-form">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+              <div class="left-sub-container-1">
+                  <label for="exampleInputPassword1" style="display:block">Subject</label>
+                  <input type="text" id="subject" placeholder="Subject">
+                </div>
+          </div>
+          <div class="row left-sub-container-2">
+              <div class="col-md-4">
+                  <label for="exampleInputPassword1" style="display:block">Impact</label>  
+                  <select class="impact-select">
+                      <option>Select a option</option>
+                    </select>   
+              </div>
+              <div class="col-md-4">
+                  <label for="exampleInputPassword1" style="display:block">Urgency</label>  
+                  <select class="urgency-select">
+                    <option>Select a option</option>
+                  </select>   
+              </div>  
+              <div class="col-md-4">
+                  <button type="button" class="btn btn-raised btn-primary">Create</button>                  
+              </div>        
+          </div>
+        </div>
+        <div class="col-md-6">
+            <label for="exampleInputPassword1" style="display:block">Set working ticket</label>       
+            <input type="text" id="subject" placeholder="Subject">
+            <button type="button" class="btn btn-raised btn-primary">Set</button>                              
+        </div>
+      </div>
+    </div>
+    <div class="ticket-table">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">TicketId</th>
+                <th scope="col">Subject</th>
+                <th scope="col">State</th>
+                <th scope="col">Prority</th>
+                <th scope="col">Updated on</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+  </div>
+</div>
+</div>

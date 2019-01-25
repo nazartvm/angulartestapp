@@ -1,0 +1,64 @@
+.header{
+    background:#05658B;
+}
+.btn-primary{
+    background: #0BA2F5!important;
+    color: white!important;
+}
+body{
+    font-family: serif;
+    background: #F4F8F7;
+}
+.header li i{
+    color: white;
+    font-size: 20px;
+    margin-top: 10%;
+    padding: 1%;
+    margin-left: 19%;
+}
+.header li i span{
+    margin-left: 8px;
+}
+.after-header{
+    height: 65px;
+    margin: 10px;
+    padding: 10px;
+}
+.profile-div{
+    background: white;
+    height: 491px;
+    margin-left: 4%;
+    margin-right: 2%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.ticket-form{
+    background: white;
+    height: 160px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.ticket-table{
+    background: white;
+    margin-top: 4%;
+    height: 293px;
+    padding: 1%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.left-sub-container-1{
+    margin-left: 5%;
+    padding: 1%;
+    margin-top: 10px;
+}
+.left-sub-container-2{
+    margin-left: -1%;
+    padding: 1%;
+    margin-top: 10px;
+}
+#subject{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 380px;
+}
+.impact-select{
+    width: 120px;
+}
