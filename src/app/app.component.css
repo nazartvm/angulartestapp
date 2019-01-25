@@ -85,3 +85,15 @@ body{
     margin-left: 5%;
     padding: 1%;
 }
+.profile-form label{
+    margin-top: 1%;
+}
+.profile-form input{
+    width: 340px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;    
+}
+.profile-form button{
+    margin-top: 4%;
+    margin-left: 100px;
+}
